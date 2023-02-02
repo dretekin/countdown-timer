@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+.container {
+	padding-top: 15vh;
+	font-family: "Courier New", Courier, monospace;
+	background-image: url(./home-mobile-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+@media screen and (min-width: 570px) {
+	.container {
+		padding-top: 20vh;
+		background-image: url(./home-desktop-4.jpg);
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+#timer {
+	display: grid;
+	grid-template-columns: 30% 5% 30% 5% 30%;
+	width: 500px;
+	min-width: 480px;
+	margin: auto;
+	padding: 2rem;
+	color: #434a50;
+	font-size: 5rem;
+	font-family: "Josefin Sans";
+}
+#timer > div {
+	text-align: center;
+}
+
+#hours {
+	grid-column: 1 / 2;
+}
+.seperator-1 {
+	grid-column: 2 / 3;
+}
+#minutes {
+	grid-column: 3 / 4;
+}
+.seperator-2 {
+	grid-column: 4 / 5;
+}
+#seconds {
+	grid-column: 5 / 6;
+}
+
+.remaining {
+	font-weight: 900;
+}
+
+.seperator-1,
+.seperator-2 {
+	position: relative;
+	bottom: 10px;
+}
+
+.text {
+	font-size: 12px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
