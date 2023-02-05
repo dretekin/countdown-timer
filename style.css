@@ -82,4 +82,12 @@ h1 {
 	}
 }
 
+#gitLink {
+	display: block;
+	text-align: center;
+}
+#gitLink svg {
+	fill: #57606a;
+}
+
 /* interesting timer complete reveal */
