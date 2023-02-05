@@ -85,6 +85,9 @@ h1 {
 #gitLink {
 	display: block;
 	text-align: center;
+	padding: 1rem;
+	width: 4rem;
+	margin: 1rem auto;
 }
 #gitLink svg {
 	fill: #57606a;
