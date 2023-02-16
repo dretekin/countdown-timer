@@ -1,3 +1,1 @@
-# countdown-timer
-
-[See it action](https://countdowntimer.dretekin.repl.co/)
+# A static countdown-timer [See it action](https://cheerful-biscuit-127c79.netlify.app/)
